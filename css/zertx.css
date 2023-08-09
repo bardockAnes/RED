@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100 ;
+    /*box-shadow: 0px 0px 4px black*/
+}
+.header a span{
+    color: red;
+   background-color: transparent;
+   margin-left: 4px;
+
+   
+  
+}
+.header .logo{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Merienda"; 
+}
+    
+
+.nav-bar a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: "Merienda";
+    font-weight: 300;
+    margin-left: 35px;
+    transition: .3s;
+    
+}
+.nav-bar a:hover,.nav-bar a.main{
+    color: red;
+
+}
+.Home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10%;
+    
+}
+.Home-Content{
+    max-width: 600px;
+    font-family: "Merienda";
+    
+}
+
+.Home-Content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+.Home-Content h2{
+    font-size: 32px;
+    color: red;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.Home-Content p{
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 25px;
+}
+.Home-Content p span{
+    display: none;
+}
+.Home-social{
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+     
+}
+.Home-social a{
+    margin: 10px;
+    display: inline-flex;
+    font-size: 40px; 
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.Home-social .youtube i{
+    animation-duration: 100000000s;
+}
+
+.Home-social a i:hover{
+    animation-duration: 2s;
+}
+.imagez{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+  margin-left: 100px;
+  box-sizing: border-box;
+   
+}
+.imagez img{
+    width: 400px;
+    height: 99vh;
+    margin-top: 1%;
+}
+
+
+
+
