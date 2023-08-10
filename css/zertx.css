@@ -33,6 +33,13 @@ body{
   #header.scrolled {
   backdrop-filter: blur(3px);
   }
+  #header.scrolled2 {
+    backdrop-filter: blur(3px);
+    .nav-bar a:hover,.nav-bar a.main{
+        color: red;
+    
+    }
+    }
   
 .header a span{
     color: red;
@@ -65,6 +72,7 @@ body{
     color: white;
 
 }
+/*home*/
 .Home{
     display: flex;
     align-items: center;
@@ -141,6 +149,13 @@ body{
 .aboutme{
     display: flex;
     
+}
+/*about me */
+.aboutMe{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10%;
 }
 
 
