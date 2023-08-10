@@ -19,11 +19,12 @@ body{
     left: 0;
     width: 100%;
     padding: 10px 10%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100 ;
-    /*box-shadow: 0px 0px 4px black*/
+    box-shadow: 0px 0px 4px black
 }
 .header a span{
     color: red;
@@ -50,10 +51,10 @@ body{
     font-weight: 300;
     margin-left: 35px;
     transition: .3s;
-    
+    margin-right: 16px;
 }
 .nav-bar a:hover,.nav-bar a.main{
-    color: red;
+    color: white;
 
 }
 .Home{
@@ -121,12 +122,17 @@ body{
     align-items: center;
   margin-left: 100px;
   box-sizing: border-box;
+  background-color: red;
    
 }
 .imagez img{
-    width: 400px;
-    height: 99vh;
+    width: 500px;
+    height: 99.4vh;
     margin-top: 1%;
+}
+.aboutme{
+    display: flex;
+    
 }
 
 
