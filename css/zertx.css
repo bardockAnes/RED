@@ -11,7 +11,7 @@
     
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
 }
 .header{
     position: fixed;
@@ -156,7 +156,49 @@ body{
     align-items: center;
     min-height: 100vh;
     padding: 0 10%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: center;
 }
+.aboutMe-content h2{
+    font-size: 32px;
+    color: red;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aboutMe-content p{
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 25px;
+    text-align: center;
+}
+/*video*/
+.videos{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.videos h2{
+    color: red;
+}
+.video0{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.video h3{
+    text-align: center;
+}
+
+
 
 
 
